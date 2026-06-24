@@ -35,7 +35,9 @@ npm run dev
 ```
 
 ## Screenshot
-![Cooking Masterclass Homepage](screenshots/Homepage.png)
+![Cooking Masterclass Homepage](screenshots/Fullpage.png)
+![Sold Out page](screenshots/bottompage.jpg.png)
+![Part of the code](screenshots/Thecode.jpg.png)
 
 ## Author
 Likona Mkhatshana
