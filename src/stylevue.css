@@ -6,11 +6,11 @@
 
 body{
     font-family:Arial, sans-serif;
-    background:lab(78.9% 18.44 40.3);
+    background:hsl(43, 88%, 90%);
 }
 
 .header{
-    background: lch(49.02% 43.15 64.27);
+    background: #6B8E7A;
     color:white;
     padding: 20px;
     display: flex;
@@ -52,7 +52,7 @@ button{
     width: 100%;
     padding: 10px;
     border: none;
-    background: lch(49.02% 43.15 64.27);
+    background: #6B8E7A;
     color: white;
     border-radius: 8px;
     cursor: pointer;
