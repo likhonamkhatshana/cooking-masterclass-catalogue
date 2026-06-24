@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:lab(78.9% 18.44 40.3);
+}
+
+.header{
+    background: lch(49.02% 43.15 64.27);
+    color:white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.course-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 30px;
+}
+
+.card{
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: .3s;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+.available{
+    color: green;
+    font-weight: bold;
+}
+
+.sold-out{
+    color:red;
+    font-weight: bold;
+}
+
+button{
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: lch(49.02% 43.15 64.27);
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:disabled{
+    background: gray;
+    cursor: not-allowed;
+}
+
+.wishlist{
+    transition:.3s;
+}
