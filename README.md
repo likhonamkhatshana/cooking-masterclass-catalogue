@@ -35,7 +35,7 @@ npm run dev
 ```
 
 ## Screenshot
-
+![Cooking Masterclass Homepage](screenshots/Homepage.png)
 
 ## Author
 Likona Mkhatshana
